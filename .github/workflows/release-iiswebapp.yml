@@ -68,7 +68,7 @@ jobs:
 
     steps:
     - name: Download a Build Artifact
-      uses: actions/download-artifact@v2.1.1
+      uses: actions/download-artifact@v8.0.1
       with:
         name: IISWebAppDeploy Extension Artifact
         path: ./artifacts/extensions/IISWebAppDeploy/
