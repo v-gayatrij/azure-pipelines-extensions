@@ -24,7 +24,7 @@ jobs:
         ref: ${{ github.event.release.target_commitish }} # Checkout the commit that used in the release.
 
     - name: Install Node.js ${{ env.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v6
       with:
         node-version: ${{ env.node-version }}
 
@@ -74,7 +74,7 @@ jobs:
         path: ./artifacts/extensions/IISWebAppDeploy/
 
     - name: Use Node.js ${{ env.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v6
       with:
         node-version: ${{ env.node-version }}
 
