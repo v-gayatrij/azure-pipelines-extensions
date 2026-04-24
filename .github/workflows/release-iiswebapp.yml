@@ -19,7 +19,7 @@ jobs:
       contents: write # Permissions to attcach the artifact to release assets.
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
       with:
         ref: ${{ github.event.release.target_commitish }} # Checkout the commit that used in the release.
 
