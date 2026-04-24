@@ -11,7 +11,7 @@
     "shell-quote": "^1.8.2",
     "shelljs": "^0.10.0",
     "ssh2": "1.4.0",
-    "ssh2-sftp-client": "^8.1.0",
+    "ssh2-sftp-client": "^12.1.1",
     "uuid": "^3.3.2",
     "vso-node-api": "6.0.1-preview"
   },
