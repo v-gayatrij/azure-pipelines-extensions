@@ -7,13 +7,13 @@
   "license": "ISC",
   "dependencies": {
     "@types/ssh2-sftp-client": "5.2.0",
-    "azure-pipelines-task-lib": "^5.2.8",
-    "shell-quote": "^1.8.2",
+    "azure-pipelines-task-lib": "^5.2.10",
+    "shell-quote": "^1.8.4",
     "shelljs": "^0.10.0",
-    "ssh2": "1.4.0",
+    "ssh2": "1.17.0",
     "ssh2-sftp-client": "^8.1.0",
     "uuid": "^3.3.2",
-    "vso-node-api": "6.0.1-preview"
+    "vso-node-api": "6.5.0"
   },
   "overrides": {
     "underscore": "1.13.8",
