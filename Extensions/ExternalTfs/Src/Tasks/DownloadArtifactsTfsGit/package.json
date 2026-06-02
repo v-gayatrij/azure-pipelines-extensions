@@ -2,7 +2,7 @@
   "name": "DownloadArtifactsTfsGit",
   "main": "download.js",
   "dependencies": {
-    "@azure/msal-node": "^2.7.0",
+    "@azure/msal-node": "^5.1.4",
     "azure-devops-node-api": "14.1.0",
     "azure-pipelines-task-lib": "^5.2.8",
     "azure-pipelines-tasks-azure-arm-rest": "^3.272.1"
