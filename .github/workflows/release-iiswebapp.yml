@@ -55,7 +55,7 @@ jobs:
         asset_content_type: application/octet-stream
         
     - name: Upload Extension as Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v7
       with:
         name: IISWebAppDeploy Extension Artifact
         path: _package/IISWebAppDeploy/${{ env.extension-name }}
